@@ -9,4 +9,4 @@ Minimal ESPHome custom climate component for RC-EX3 serial protocol.
 - No MQTT required
 
 ## Status
-v1 = compiled skelet (TX/RX komt in v2)
+v1 = compiled skelet (TX/RX in next versions)
