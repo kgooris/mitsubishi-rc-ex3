@@ -1,0 +1,30 @@
+esphome:
+  name: mitsubishi-rc-ex3
+  friendly_name: Mitsubishi Climate Control RC-EX3
+  includes:
+    - esphome/rc3_climate.h
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+logger:
+  level: DEBUG
+
+api:
+
+ota:
+
+wifi:
+  ap:
+    ssid: "MitsubishRC-EX3"
+    password: "homeassistant"
+
+captive_portal:
+
+uart:
+  id: rc_uart
+  tx_pin: GPIO17
+  rx_pin: GPIO16
+  baud_rate: 9600

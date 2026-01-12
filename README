@@ -1,0 +1,12 @@
+# Mitsubitsi RC-EX3 ESPHome Climate (v1)
+
+Minimal ESPHome custom climate component for RC-EX3 serial protocol.
+
+## Features
+- ESP32 UART based
+- Native ESPHome Climate
+- Captive portal WiFi setup
+- No MQTT required
+
+## Status
+v1 = compiled skelet (TX/RX komt in v2)
